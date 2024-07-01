@@ -1,0 +1,21 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    width: 100%;
+    background-color: #662828;
+  }
+  .mb-4{
+      color: aqua;
+  }
+ .img{
+    height: 150px;
+
+ }
+ #btn{
+    background-color: rgb(255, 87, 51) ;
+    padding: 3%;
+margin-top: 10px;
+    
+ }
