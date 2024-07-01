@@ -3,9 +3,257 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.bundle.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c0d40ee82d.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Aparna's branch</h1>
+    <body class="vh-100">
+    
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg" style="background-color: #b5545e;">
+            <div class="container-fluid">
+                
+                <!-- Logo -->
+                <a class="navbar-brand" href="#"><img src="images/winsterlogo.png" width="100px"></a>
+                
+                <!-- Toggle Btn -->
+                <button class="navbar-toggler shadow-none border-0" 
+                type="button" 
+                data-bs-toggle="offcanvas" 
+                data-bs-target="#offcanvasNavbar" 
+                aria-controls="offcanvasNavbar" 
+                aria-label="Toggle navigation">
+                
+                <span class="navbar-toggler-icon"></span>
+              </button>
+    
+              <!-- Sidebar -->
+              <div 
+              class="sidebar offcanvas offcanvas-start"
+              style="background: #b5545e;" 
+              tabindex="-1" 
+              id="offcanvasNavbar" 
+              aria-labelledby="offcanvasNavbarLabel">
+    
+              <!-- Sidebar-Header -->
+                <div class="offcanvas-header text-black border-bottom">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Winster.Co</h5>
+                  <button type="button" 
+                  class="btn-close btn-close-dark shadow-none" 
+                  data-bs-dismiss="offcanvas" 
+                  aria-label="Close"></button>
+                </div>
+    
+                <!-- Sidebar Body -->
+                <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-3">
+                    <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active text-black" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-black" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-black" href="gallerycollection.html">Gallery</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                        <a class="nav-link text-black" href="productpage.html">Listings</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link text-black" href="contactpage.html">Contact</a>
+                        </li>
+                    </ul>
+    
+                    <!-- Login/Sign up -->
+                    <div class="d-flex flex-column flex-lg-row align-items-center gap-3">
+                        <a href="#"><i class="bi bi-heart-fill"></i></a>
+                        <a href="#"><i class="bi bi-bell-fill"></i></a>
+                        <a href="Login.html"><i class="bi bi-person-fill"></i></a>
+                        <a href="cart.html"><i class="bi bi-cart-fill"></i></a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+          <!---Carousel-->
+    <div id="carouselIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/Winster.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Our Best Sellers.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="images/Sale.png" class="d-block w-100" alt="">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+      </div>
+      <!---Youtube Video-->
+      <h2>VINES TO YOUR BOTTLE OF WINE</h2>
+    <div class="container">
+        <iframe width="900" height="400" 
+        src="https://www.youtube.com/embed/0SJhcXVSbE8?si=gETzF9gYjCjLYgBz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+        
+    </div>
+    <!---Product Listing-->
+
+    &nbsp;
+    <br>
+    &nbsp;
+    <br>
+    <center><h2>Our Vine De Table</h2></center>
+        <div class="row">
+
+            <div class="card col-md-3">
+                <img src="images/2.jpeg" class="img-fluid" alt=" ">
+                <h3>RASA SYRAH</h3>
+                <h6><i>FLAVOURS: Dark and red berries, vanilla, mocha, spices</i></h6>
+                <p><strong><span style="color: rgb(247, 5, 5); text-decoration: line-through; opacity: 0.5;">$13,000</span>&nbsp;&nbsp;&nbsp;$12,100</strong></p>
+                <a href="#"><i class="fa-regular fa-heart" style="margin-right: 250px;"></i><i class="fa-solid fa-share-nodes"></i></a>
+                <button class="btn btn-primary" style="background-color: #b5545e; border-color: #b5545e;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+
+            <div class="card col-md-3">
+                <img src="images/5.jpeg" class="img-fluid" alt=" ">
+                <h3>THE SOURCE GRENACHE ROSÉ</h3>
+                <h6><i>Flavours: Citrus, tropical fruits and white peach</i></h6>
+                <p><strong><span style="color: rgb(247, 5, 5); text-decoration: line-through; opacity: 0.5;">$13,400</span>&nbsp;&nbsp;&nbsp;$12,400</strong></p>
+                <a href="#"><i class="fa-regular fa-heart" style="margin-right: 250px;"></i><i class="fa-solid fa-share-nodes"></i></a>
+                <button class="btn btn-primary" style="background-color: #b5545e; border-color: #b5545e;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+            <div class="card col-md-3">
+                <img src="images/10.webp" class="img-fluid" alt=" ">
+                <h3>DINDORI RESERVE VIOGNIER</h3>
+                <h6><i>Flavours: Apricot, Peach, Lychee</i></h6>
+                <p><strong><span style="color: rgb(247, 5, 5); text-decoration: line-through; opacity: 0.5;">$13,900</span>&nbsp;&nbsp;&nbsp;$12,900</strong></p>
+                <a href="#"><i class="fa-regular fa-heart" style="margin-right: 250px;"></i><i class="fa-solid fa-share-nodes"></i></a>
+                <button class="btn btn-primary" style="background-color: #b5545e; border-color: #b5545e;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+            <div class="card col-md-3">
+                <img src="images/14.webp" class="img-fluid" alt=" ">
+                <h3>SULA BRUT</h3>
+                <h6><i>Flavours: Aromas of apples & pears</i></h6>
+                <p><strong><span style="color: rgb(247, 5, 5); text-decoration: line-through; opacity: 0.5;">$14,500</span>&nbsp;&nbsp;&nbsp;$13,500</strong></p>
+                <a href="#"><i class="fa-regular fa-heart" style="margin-right: 250px;"></i><i class="fa-solid fa-share-nodes"></i></a>
+                <button class="btn btn-primary" style="background-color: #b5545e; border-color: #b5545e;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+            <div class="card col-md-3">
+                <img src="images/15.webp" class="img-fluid" alt=" ">
+                <h3>SULA SPARKLING SHIRAZ</h3>
+                <h6><i>Flavours: Pomegranate, dark berries, spices,smoke.</i></h6>
+                <p><strong><span style="color: rgb(247, 5, 5); text-decoration: line-through; opacity: 0.5;">$14,600</span>&nbsp;&nbsp;&nbsp;$13,600</strong></p>
+                <a href="#"><i class="fa-regular fa-heart" style="margin-right: 250px;"></i><i class="fa-solid fa-share-nodes"></i></a>
+                <button class="btn btn-primary" style="background-color: #b5545e; border-color: #b5545e;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+            <div class="card col-md-3">
+                <img src="images/18.webp" class="img-fluid" alt=" ">
+                <h3>SULA ZINFADEL ROSE</h3>
+                <h6><i>Flavours: Intense notes of citrus, cranberry & ripe fruits.</i></h6>
+                <p><strong><span style="color: rgb(247, 5, 5); text-decoration: line-through; opacity: 0.5;">$14,700</span>&nbsp;&nbsp;&nbsp;$13,700</strong></p>
+                <a href="#"><i class="fa-regular fa-heart" style="margin-right: 250px;"></i><i class="fa-solid fa-share-nodes"></i></a>
+                <button class="btn btn-primary" style="background-color: #b5545e; border-color: #b5545e;"><i class="fa-solid fa-cart-shopping"></i> Add to Cart</button>
+            </div>
+        </div>
+
+        <center><a href="productpage.html"><button class="btn btn-primary" style="background-color: #b5545e; border-color: white; border-radius: 5px;"><i class="fa-solid fa-eye"></i> View More</button></a></center>
+        <!-- Footer  -->
+    
+        <footer style="width:100%"; class="text-center text-lg-start mt-xl-5 pt-4">
+            <!-- Grid container -->
+            <div class="container-fluid p-4">
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4">Information</h5>
+        
+                  <ul class="list-unstyled mb-4">
+                    <li>
+                      <a href="#!" class="text-white">Shop</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">What's Vinification?</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">About us</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Contact us</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4">Our policies</h5>
+        
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!" class="text-white">Privacy Policy</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Terms & Conditions</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Shipping & Cancellation</a>
+                    </li>
+                    <li>
+                      <a href="#!" class="text-white">Returns & Refund</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0" id="logo">
+                  <img class="img" src="images/Winster1.png" alt="logo">
+                </div>
+                <!--Grid column-->
+        
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                  <h5 class="text-uppercase mb-4">Sign up to get new offers</h5>
+        
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control"  placeholder="Email Address"/>
+        
+                  <button type="submit" id="btn" class="btn btn-outline-white btn-block">Subscribe</button>
+                  
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-facebook"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-instagram"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="bi bi-youtube"></i>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+        
+            <!-- Copyright -->
+            <div class="text-center p-3 border-top border-white">
+              Winster© 2024 Copyright:
+              <a class="text-white" href="index.html">Winster.com</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+    
 </body>
 </html>
