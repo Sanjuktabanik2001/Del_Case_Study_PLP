@@ -1,0 +1,56 @@
+body {
+    background-image: url('../product listing/images/background.jpg');
+}
+h2{
+    width: 100%; /* Span the entire width of the page */
+    text-align: center; /* Center the text */
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: gold;
+    margin: 0; /* Optional: Remove default margin */
+    padding: 0; /* Optional: Remove default padding */
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 30px;
+}
+.card{
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px #f2bc79;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    box-shadow: 5px 5px #f2bc79;
+    transform: scale(1.05);
+}
+.card h3{
+    font-size: 20px;
+    text-align: center;
+}
+.card h6{
+    font-size: 15px;
+    text-align: center;
+}
+.card p{
+    font-size: 20px;
+    text-align: center;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    border-radius: 10px;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
